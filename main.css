@@ -12,13 +12,16 @@ nav{
     object-position: 15% 100%;
     display: block; margin: 0px auto;
 }
-.ImgP img{
-    width: 600px;
+.ImgProjekt img{
+    width: 500px;
     height: auto;
 }
-.ImgM img{
-    width: 200px;
+.ImgMig img{
+    width: 180px;
     height: auto;
+}
+.ImgKontakt img{
+    width:80px;
 }
 
 body {
@@ -73,6 +76,8 @@ th, td{
 }
 .tableC, .tdC{
         border:none; border-collapse:collapse; text-align: left;
+        width:100%;
+        vertical-align: top;
     }
 
 
