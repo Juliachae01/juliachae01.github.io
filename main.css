@@ -13,7 +13,7 @@ nav{
     display: block; margin: 0px auto;
 }
 .ImgProjekt img{
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 .ImgMig img{
@@ -21,13 +21,13 @@ nav{
     height: auto;
 }
 .ImgKontakt img{
-    width:80px;
+    width:60px;
 }
 
 body {
     background-color:rgb(245, 245, 245);
     color:#63a5ff;
-    font-family: 'roboto';
+    font-family:sans-serif;
 
 }
 hr {
@@ -37,32 +37,32 @@ h1{
     text-align: center;
     font-size: 1.8em;
     font-style: bold;
-    font-family: 'roboto';
+    font-family:'Courier New', Courier, monospace;
 }
 h2{    
     text-align: center;
     font-size: 1.8em;
     font-style: bold;
-    font-family: 'roboto';
+    font-family: sans-serif;
     color: mediumvioletred;
 }
 h4{    
     text-align: center;
     font-size: 1.2em;
     font-style: bold;
-    font-family: 'roboto';
+    font-family: sans-serif;
     color: #63a5ff;
 }
 
 h3{
     color:mediumvioletred;
     font-size: 1.5em;
-    font-family:'roboto';
+    font-family:sans-serif;
 }
 h5{
     color:midnightblue;
     font-size: 1.2em;
-    font-family:'roboto';
+    font-family:sans-serif;
 }
 p{
     color:rgb(13, 13, 75);
@@ -82,14 +82,14 @@ th, td{
 
 
 .bg ul{
-font-family:'roboto';
+font-family:sans-serif;
 font-size: 1.1em;
 padding: 10px;
 color:rgb(13, 13, 75);
 }
 
 .LiCv ul{
-    font-family:'roboto';
+    font-family:sans-serif;
     font-size: 1.0em;
     color:rgb(13, 13, 75);
 
