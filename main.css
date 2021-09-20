@@ -1,0 +1,91 @@
+
+nav{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.ImgH img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    object-position: 15% 100%;
+    display: block; margin: 0px auto;
+}
+.ImgP img{
+    width: 600px;
+    height: auto;
+}
+.ImgM img{
+    width: 200px;
+    height: auto;
+}
+
+body {
+    background-color:rgb(245, 245, 245);
+    color:#63a5ff;
+    font-family: 'roboto';
+
+}
+hr {
+    color: #afdff1; background-color:rgb(161, 59, 59)
+}
+h1{
+    text-align: center;
+    font-size: 1.8em;
+    font-style: bold;
+    font-family: 'roboto';
+}
+h2{    
+    text-align: center;
+    font-size: 1.8em;
+    font-style: bold;
+    font-family: 'roboto';
+    color: mediumvioletred;
+}
+h4{    
+    text-align: center;
+    font-size: 1.2em;
+    font-style: bold;
+    font-family: 'roboto';
+    color: #63a5ff;
+}
+
+h3{
+    color:mediumvioletred;
+    font-size: 1.5em;
+    font-family:'roboto';
+}
+h5{
+    color:midnightblue;
+    font-size: 1.2em;
+    font-family:'roboto';
+}
+p{
+    color:rgb(13, 13, 75);
+}
+
+table{
+    border: 2px solid; border-collapse:collapse; text-align: left;
+}
+th, td{
+    border:1px solid; padding: 10px 5px;
+}
+.tableC, .tdC{
+        border:none; border-collapse:collapse; text-align: left;
+    }
+
+
+.bg ul{
+font-family:'roboto';
+font-size: 1.1em;
+padding: 10px;
+color:rgb(13, 13, 75);
+}
+
+.LiCv ul{
+    font-family:'roboto';
+    font-size: 1.0em;
+    color:rgb(13, 13, 75);
+
+}
