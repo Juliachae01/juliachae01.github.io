@@ -5,7 +5,17 @@ nav{
     font-size: 18px;
     padding: 10px;
 }
-.ImgH img{
+
+nav a{
+    color: #63a5ff;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: hotpink;
+}
+
+.ImgMain img{
     width: 400px;
     height: auto;
     object-fit: cover;
@@ -13,12 +23,13 @@ nav{
     display: block; margin: 0px auto;
 }
 .ImgProjekt img{
-    width: 400px;
+    width: 90%;
     height: auto;
 }
 .ImgMig img{
     width: 180px;
     height: auto;
+    border-radius: 5px;
 }
 .ImgKontakt img{
     width:60px;
@@ -41,7 +52,7 @@ h1{
 }
 h2{    
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     font-style: bold;
     font-family: sans-serif;
     color: mediumvioletred;
@@ -67,6 +78,10 @@ h5{
 p{
     color:rgb(13, 13, 75);
 }
+.footer{
+    color: #63a5ff;
+}
+
 
 table{
     border: 2px solid; border-collapse:collapse; text-align: left;
@@ -85,10 +100,18 @@ th, td{
 font-family:sans-serif;
 font-size: 1.1em;
 padding: 10px;
-color:rgb(13, 13, 75);
 }
 
-.LiCv ul{
+.bg li a{
+    color: #63a5ff;
+    text-decoration:none;
+}
+
+.bg li a:hover{
+    color: hotpink;
+}
+
+.ListCv ul{
     font-family:sans-serif;
     font-size: 1.0em;
     color:rgb(13, 13, 75);
