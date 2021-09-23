@@ -6,12 +6,12 @@ nav{
     padding: 10px;
 }
 
-nav a{
+a{
     color: #63a5ff;
     text-decoration:none;
 }
 
-nav a:hover{
+a:hover{
     color: hotpink;
 }
 
