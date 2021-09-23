@@ -16,7 +16,7 @@ nav a:hover{
 }
 
 .ImgMain img{
-    width: 400px;
+    width: 50%;
     height: auto;
     object-fit: cover;
     object-position: 15% 100%;
