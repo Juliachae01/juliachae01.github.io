@@ -9,7 +9,7 @@
 
 /* Font för Title (Namn) */
 h2{
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family:sans-serif;
   color:rgba(47, 43, 61)
 }
@@ -68,12 +68,11 @@ background-image: url("image/parallaximage03.jpg");
   background-size: cover;
 }
 
-.card-img-top{
-  border: 2px solid;
-  border-radius: 10px;
+/* - Index buttons - my CV, my work - */
+.col-xs-4 {
+  text-align: center;
   border-color:rgb(147,140, 166);
 }
-
   
 /* - footer - */
 
@@ -89,12 +88,8 @@ footer{
   background-color: rgb(242, 237, 250);
 }
 
-.col-xs-4 {
-  text-align: center;
-  border-color:rgb(147,140, 166);
-}
 
-/*image text overlay*/
+/* Work - project gallery, image text overlay*/
 figure {
   width: 100%;
   position: relative;
@@ -122,6 +117,7 @@ figure .overlay {
       transition: .5s ease;
 }
 
+/* - work - subtitle,  about, contact me- content - */
 h4{
   color: rgb(70, 64, 77);
   font-size: 1.2em;
@@ -130,7 +126,7 @@ h4{
   font-family: sans-serif;
 
 }
-
+/* - under project (detail) pages accordion subtitle - */
 h5{
 color: aliceblue;
 font-weight: bold;
@@ -139,11 +135,10 @@ text-align: center;
 font-family: sans-serif;
 
 }
-
+/* - Work - figure overlay description text  - */
 p{
 color: beige;
 font-size: 0.8em;
-
 }
 
 figure .overlay .description {
